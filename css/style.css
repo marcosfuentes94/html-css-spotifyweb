@@ -68,4 +68,23 @@
    width: 9.375rem;
    color: #d2d2d2;
 }
+.topbar-button {
+	background-color:#080b12;
+	border-radius:1.75rem;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+   font-size: .8125rem;
+   font-weight: 600;
+	padding:6px 20px;
+	text-decoration:none;
+}
+.topbar-button:hover {
+   transform: scale(1.1);
+}
+.topbar-button:active {
+	position:relative;
+	top:1px;
+}
  
